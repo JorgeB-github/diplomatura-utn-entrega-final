@@ -10,6 +10,7 @@ import AsistenciaPage from './pages/AsistenciaPage';
 import NosotrosPage from './pages/NosotrosPage';
 import ProductosPage from './pages/ProductosPage';
 import SolucionesPage from './pages/SolucionesPage';
+import NovedadesPage from './pages/NovedadesPage';
 import FormPage from './pages/FormPage';
 
 import './styles/components/layout/Nav.css'
@@ -35,7 +36,8 @@ function App() {
           <Route path='asistencia' element ={<AsistenciaPage />} />
           <Route path='soluciones' element ={<SolucionesPage />} />
           <Route path='form' element ={<FormPage />} /> 
-          <Route path='productos' element ={<ProductosPage />} />         
+          <Route path='productos' element ={<ProductosPage />} />       
+          <Route path='novedades' element ={<NovedadesPage />} />    
         </Routes>
       </BrowserRouter>
 
