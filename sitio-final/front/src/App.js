@@ -21,6 +21,7 @@ import './styles/components/pages/NosotrosPage.css'
 import './styles/components/pages/SolucionesPage.css'
 import './styles/components/pages/AsistenciaPage.css'
 import './styles/components/pages/ProductosPage.css'
+import './styles/components/pages/NovedadesPage.css'
 import './styles/components/pages/FormPage.css'
 
 
